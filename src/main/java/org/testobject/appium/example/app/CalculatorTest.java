@@ -70,7 +70,7 @@ public class CalculatorTest {
 		calculator.tap5();
 		calculator.tapEquals();
 		
-		Assert.assertEquals("7", calculator.getResult());
+		Assert.assertEquals("6", calculator.getResult());
 
 		driver.getScreenshotAs(OutputType.BYTES);
 	}
